@@ -1,0 +1,20 @@
+{
+  "flights": [
+    { "id": "1", "from": "Chișinău", "fromCode": "RMO", "to": "Roma", "toCode": "FCO", "airline": "Air Moldova", "date": "2026-11-12", "departure": "08:15", "arrival": "10:05", "price": 129, "seatsAvailable": 42 },
+    { "id": "2", "from": "Chișinău", "fromCode": "RMO", "to": "Milano", "toCode": "BGY", "airline": "Wizz Air", "date": "2026-11-14", "departure": "06:40", "arrival": "08:20", "price": 59, "seatsAvailable": 87 },
+    { "id": "3", "from": "Chișinău", "fromCode": "RMO", "to": "Londra", "toCode": "LTN", "airline": "Wizz Air", "date": "2026-11-18", "departure": "13:30", "arrival": "15:45", "price": 89, "seatsAvailable": 64 },
+    { "id": "4", "from": "Chișinău", "fromCode": "RMO", "to": "Istanbul", "toCode": "IST", "airline": "Turkish Airlines", "date": "2026-11-21", "departure": "04:50", "arrival": "07:10", "price": 175, "seatsAvailable": 23 },
+    { "id": "5", "from": "Chișinău", "fromCode": "RMO", "to": "Paris", "toCode": "CDG", "airline": "Air France", "date": "2026-12-03", "departure": "11:20", "arrival": "13:50", "price": 245, "seatsAvailable": 18 },
+    { "id": "6", "from": "Chișinău", "fromCode": "RMO", "to": "Frankfurt", "toCode": "FRA", "airline": "Lufthansa", "date": "2026-12-09", "departure": "14:05", "arrival": "15:55", "price": 210, "seatsAvailable": 31 },
+    { "id": "7", "from": "București", "fromCode": "OTP", "to": "Barcelona", "toCode": "BCN", "airline": "TAROM", "date": "2026-11-16", "departure": "09:10", "arrival": "11:40", "price": 149, "seatsAvailable": 55 },
+    { "id": "8", "from": "București", "fromCode": "OTP", "to": "Amsterdam", "toCode": "AMS", "airline": "KLM", "date": "2026-11-25", "departure": "07:35", "arrival": "09:50", "price": 198, "seatsAvailable": 27 },
+    { "id": "9", "from": "București", "fromCode": "OTP", "to": "Viena", "toCode": "VIE", "airline": "Austrian Airlines", "date": "2026-12-01", "departure": "16:20", "arrival": "17:10", "price": 119, "seatsAvailable": 40 },
+    { "id": "10", "from": "București", "fromCode": "OTP", "to": "Madrid", "toCode": "MAD", "airline": "Iberia", "date": "2026-12-12", "departure": "10:00", "arrival": "13:05", "price": 265, "seatsAvailable": 12 },
+    { "id": "11", "from": "București", "fromCode": "OTP", "to": "Dubai", "toCode": "DXB", "airline": "Emirates", "date": "2026-12-20", "departure": "21:45", "arrival": "03:30", "price": 450, "seatsAvailable": 9 },
+    { "id": "12", "from": "Iași", "fromCode": "IAS", "to": "Roma", "toCode": "FCO", "airline": "Wizz Air", "date": "2026-11-20", "departure": "12:15", "arrival": "13:50", "price": 49, "seatsAvailable": 96 },
+    { "id": "13", "from": "Iași", "fromCode": "IAS", "to": "Londra", "toCode": "LTN", "airline": "Wizz Air", "date": "2026-11-28", "departure": "18:30", "arrival": "20:20", "price": 79, "seatsAvailable": 71 },
+    { "id": "14", "from": "Iași", "fromCode": "IAS", "to": "München", "toCode": "MUC", "airline": "Lufthansa", "date": "2026-12-15", "departure": "06:05", "arrival": "07:25", "price": 189, "seatsAvailable": 0 },
+    { "id": "15", "from": "Iași", "fromCode": "IAS", "to": "Paris", "toCode": "BVA", "airline": "Wizz Air", "date": "2026-12-22", "departure": "15:40", "arrival": "17:55", "price": 99, "seatsAvailable": 48 }
+  ],
+  "bookings": []
+}
