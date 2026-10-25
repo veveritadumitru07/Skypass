@@ -1,0 +1,85 @@
+.flight-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.flight-card {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.flight-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.flight-airline {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.flight-route {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.flight-right {
+  text-align: right;
+}
+
+.flight-time {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.flight-code {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.flight-city {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.flight-line {
+  flex: 1;
+  text-align: center;
+  color: var(--color-primary);
+  border-bottom: 2px dashed var(--color-border);
+  line-height: 0.1;
+  padding-bottom: 8px;
+}
+
+.flight-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--color-border);
+  padding-top: 12px;
+}
+
+.flight-price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.flight-seats {
+  font-size: 0.85rem;
+  color: var(--color-success);
+}
+
+.flight-seats.sold-out {
+  color: var(--color-danger);
+}
